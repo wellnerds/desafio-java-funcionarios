@@ -1,10 +1,10 @@
-# 🚀 Desafio Java - Gestão de Funcionários
+# Desafio Java - Gestão de Funcionários
 
 Projeto desenvolvido como solução para desafio técnico, aplicando **boas práticas de arquitetura**, **POO**, **testes automatizados** e **organização em camadas**.
 
 ---
 
-## 📌 Objetivo
+## Objetivo
 
 Construir um sistema de gestão de funcionários com:
 
@@ -15,7 +15,7 @@ Construir um sistema de gestão de funcionários com:
 
 ---
 
-## 🧠 Stack e Conceitos
+## Stack e Conceitos
 
 * Java 17+
 * Maven (gerenciamento de dependências)
@@ -27,7 +27,7 @@ Construir um sistema de gestão de funcionários com:
 
 ---
 
-## 🏗️ Arquitetura do Projeto
+## Arquitetura do Projeto
 
 O projeto foi estruturado seguindo separação de responsabilidades:
 
@@ -46,7 +46,7 @@ src/
 
 ---
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 ✔ Cadastro de funcionários
 ✔ Remoção por nome
@@ -60,7 +60,7 @@ src/
 
 ---
 
-## 🧪 Testes Automatizados
+## Testes Automatizados
 
 O projeto utiliza **JUnit 5** para validar regras de negócio.
 
@@ -76,7 +76,7 @@ mvn test
 
 ---
 
-## 💡 Diferenciais Técnicos
+## Diferenciais Técnicos
 
 * Arquitetura em camadas (model, service, dto, util)
 * Código desacoplado e testável
@@ -86,7 +86,7 @@ mvn test
 
 ---
 
-## ▶️ Como Executar
+## Como Executar
 
 ```bash
 mvn compile
@@ -97,7 +97,7 @@ ou via IDE
 
 ---
 
-## 📈 Próximos Passos (Evolução)
+## Próximos Passos (Evolução)
 
 * API REST com Spring Boot
 * Integração com banco de dados
@@ -106,9 +106,9 @@ ou via IDE
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
-Desenvolvido por **[Wellington Ferreira]**
+Desenvolvido por **Wellington Ferreira**
 Especialista em Automação e Integrações
 
 📌 Projeto desenvolvido para avaliação técnica
