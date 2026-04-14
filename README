@@ -1,0 +1,114 @@
+# 🚀 Desafio Java - Gestão de Funcionários
+
+Projeto desenvolvido como solução para desafio técnico, aplicando **boas práticas de arquitetura**, **POO**, **testes automatizados** e **organização em camadas**.
+
+---
+
+## 📌 Objetivo
+
+Construir um sistema de gestão de funcionários com:
+
+* Manipulação de dados
+* Regras de negócio
+* Processamento com Stream API
+* Testes unitários
+
+---
+
+## 🧠 Stack e Conceitos
+
+* Java 17+
+* Maven (gerenciamento de dependências)
+* JUnit 5 (testes)
+* Programação Orientada a Objetos (POO)
+* Clean Code
+* Stream API
+* BigDecimal (precisão financeira)
+
+---
+
+## 🏗️ Arquitetura do Projeto
+
+O projeto foi estruturado seguindo separação de responsabilidades:
+
+```
+src/
+ ├── main/java/
+ │    ├── model/        → Entidades
+ │    ├── dto/          → Objetos de transferência
+ │    ├── service/      → Regras de negócio
+ │    ├── util/         → Utilitários
+ │    └── main/         → Classe executável
+ │
+ └── test/java/
+      └── service/      → Testes unitários
+```
+
+---
+
+## ⚙️ Funcionalidades
+
+✔ Cadastro de funcionários
+✔ Remoção por nome
+✔ Aumento salarial (10%)
+✔ Agrupamento por função
+✔ Filtro por mês de aniversário
+✔ Identificação do funcionário mais velho
+✔ Ordenação alfabética
+✔ Soma total dos salários
+✔ Cálculo em salários mínimos
+
+---
+
+## 🧪 Testes Automatizados
+
+O projeto utiliza **JUnit 5** para validar regras de negócio.
+
+Exemplo testado:
+
+* Aplicação de aumento salarial
+
+Rodar testes:
+
+```bash
+mvn test
+```
+
+---
+
+## 💡 Diferenciais Técnicos
+
+* Arquitetura em camadas (model, service, dto, util)
+* Código desacoplado e testável
+* Uso de BigDecimal para evitar erros financeiros
+* Preparado para evoluir para API REST
+* Boas práticas de organização de projeto (Maven)
+
+---
+
+## ▶️ Como Executar
+
+```bash
+mvn compile
+mvn exec:java
+```
+
+ou via IDE
+
+---
+
+## 📈 Próximos Passos (Evolução)
+
+* API REST com Spring Boot
+* Integração com banco de dados
+* Docker
+* Deploy em nuvem
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **[Wellington Ferreira]**
+Especialista em Automação e Integrações
+
+📌 Projeto desenvolvido para avaliação técnica
